@@ -1,0 +1,25 @@
+{
+  "name": "apirest",
+  "version": "1.0.0",
+  "description": "APIREST",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch app.js"
+  },
+  "author": "Brandon Javier Escudero Avila y Daniel Esteban Rodriguez Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "engine": "^1.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
